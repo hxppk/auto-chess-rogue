@@ -1,0 +1,98 @@
+{
+	"wave_1": {
+		"normal": {
+			"enemies": [
+				{"id": "wolf", "position": [4, 1]},
+				{"id": "wolf", "position": [4, 3]}
+			],
+			"gold_reward": 5,
+			"description": "两只野狼向你扑来"
+		},
+		"hard": {
+			"enemies": [
+				{"id": "wolf", "position": [4, 0]},
+				{"id": "wolf", "position": [4, 2]},
+				{"id": "wolf", "position": [4, 4]},
+				{"id": "goblin", "position": [3, 2]}
+			],
+			"gold_reward": 15,
+			"description": "狼群与哥布林的联合袭击"
+		}
+	},
+	"wave_2": {
+		"normal": {
+			"enemies": [
+				{"id": "goblin", "position": [4, 1]},
+				{"id": "goblin", "position": [4, 3]},
+				{"id": "goblin_archer", "position": [3, 2]}
+			],
+			"gold_reward": 5,
+			"description": "哥布林小队来袭"
+		},
+		"hard": {
+			"enemies": [
+				{"id": "goblin", "position": [4, 0]},
+				{"id": "goblin", "position": [4, 2]},
+				{"id": "goblin", "position": [4, 4]},
+				{"id": "goblin_archer", "position": [3, 1]},
+				{"id": "goblin_archer", "position": [3, 3]}
+			],
+			"gold_reward": 15,
+			"description": "大批哥布林军团进攻"
+		}
+	},
+	"wave_3": {
+		"normal": {
+			"enemies": [
+				{"id": "ogre", "position": [4, 2]},
+				{"id": "goblin", "position": [3, 0]},
+				{"id": "goblin", "position": [3, 4]}
+			],
+			"gold_reward": 5,
+			"description": "食人魔带领哥布林冲锋"
+		},
+		"hard": {
+			"enemies": [
+				{"id": "ogre", "position": [4, 1]},
+				{"id": "ogre", "position": [4, 3]},
+				{"id": "shadow_mage", "position": [3, 2]}
+			],
+			"gold_reward": 15,
+			"description": "双食人魔与暗影法师的威胁"
+		}
+	},
+	"wave_4": {
+		"normal": {
+			"enemies": [
+				{"id": "ogre", "position": [4, 1]},
+				{"id": "ogre", "position": [4, 3]},
+				{"id": "shadow_mage", "position": [3, 2]},
+				{"id": "goblin_archer", "position": [3, 0]}
+			],
+			"gold_reward": 5,
+			"description": "强大的混合编队"
+		},
+		"hard": {
+			"enemies": [
+				{"id": "ogre", "position": [4, 0]},
+				{"id": "ogre", "position": [4, 2]},
+				{"id": "ogre", "position": [4, 4]},
+				{"id": "shadow_mage", "position": [3, 1]},
+				{"id": "shadow_mage", "position": [3, 3]}
+			],
+			"gold_reward": 15,
+			"description": "食人魔军团与暗影法师的猛攻"
+		}
+	},
+	"wave_5": {
+		"boss": {
+			"enemies": [
+				{"id": "boss_redmane", "position": [3, 3]},
+				{"id": "goblin", "position": [4, 0]},
+				{"id": "goblin", "position": [4, 4]}
+			],
+			"gold_reward": 30,
+			"description": "赤鬃Boss携护卫登场，最终决战！"
+		}
+	}
+}

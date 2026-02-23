@@ -1,0 +1,82 @@
+{
+	"units": {
+		"knight": {
+			"id": "knight",
+			"name": "骑士",
+			"role": "近战坦克",
+			"cost": 5,
+			"rarity": "common",
+			"hp": 700,
+			"ad": 50,
+			"ap": 0.0,
+			"arm": 40,
+			"mdf": 20,
+			"spd": 0.7,
+			"arg": 1,
+			"description": "坚实的前排坦克，拥有高生命值和护甲"
+		},
+		"warrior": {
+			"id": "warrior",
+			"name": "战士",
+			"role": "近战输出",
+			"cost": 5,
+			"rarity": "common",
+			"hp": 600,
+			"ad": 80,
+			"ap": 0.0,
+			"arm": 20,
+			"mdf": 20,
+			"spd": 0.6,
+			"arg": 1,
+			"skill": "shattered_earth",
+			"description": "高物理输出的近战单位"
+		},
+		"ranger": {
+			"id": "ranger",
+			"name": "游侠",
+			"role": "远程物理",
+			"cost": 5,
+			"rarity": "common",
+			"hp": 400,
+			"ad": 55,
+			"ap": 0.1,
+			"arm": 20,
+			"mdf": 20,
+			"spd": 0.6,
+			"arg": 6,
+			"skill": "charged_shot",
+			"description": "远程物理攻击手"
+		},
+		"mage": {
+			"id": "mage",
+			"name": "法师",
+			"role": "远程魔法",
+			"cost": 5,
+			"rarity": "common",
+			"hp": 350,
+			"ad": 10,
+			"ap": 0.5,
+			"arm": 20,
+			"mdf": 20,
+			"spd": 0.8,
+			"arg": 5,
+			"description": "远程魔法输出，高魔法伤害"
+		},
+		"priest": {
+			"id": "priest",
+			"name": "牧师",
+			"role": "远程治疗",
+			"cost": 20,
+			"rarity": "rare",
+			"hp": 400,
+			"ad": 10,
+			"ap": 0.2,
+			"arm": 20,
+			"mdf": 30,
+			"spd": 0.7,
+			"arg": 5,
+			"skill": "quick_heal",
+			"description": "远程治疗单位，可以恢复友方生命"
+		}
+	}
+}

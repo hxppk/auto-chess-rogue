@@ -1,0 +1,12 @@
+# Godot 4 generated files
+.godot/
+
+# Godot build exports
+export/
+builds/
+
+# macOS
+.DS_Store
+
+# Editor metadata (optional, uncomment to ignore)
+# *.import

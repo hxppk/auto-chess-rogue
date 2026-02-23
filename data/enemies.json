@@ -1,0 +1,83 @@
+{
+	"enemies": {
+		"wolf": {
+			"id": "wolf",
+			"name": "野狼",
+			"role": "近战输出",
+			"hp": 300,
+			"ad": 40,
+			"ap": 0.0,
+			"arm": 10,
+			"mdf": 10,
+			"spd": 0.5,
+			"arg": 1,
+			"description": "快速的近战野兽，攻速较高"
+		},
+		"goblin": {
+			"id": "goblin",
+			"name": "哥布林",
+			"role": "近战输出",
+			"hp": 350,
+			"ad": 45,
+			"ap": 0.0,
+			"arm": 15,
+			"mdf": 10,
+			"spd": 0.6,
+			"arg": 1,
+			"description": "常见的近战小怪"
+		},
+		"goblin_archer": {
+			"id": "goblin_archer",
+			"name": "哥布林弓手",
+			"role": "远程物理",
+			"hp": 250,
+			"ad": 35,
+			"ap": 0.0,
+			"arm": 10,
+			"mdf": 10,
+			"spd": 0.7,
+			"arg": 5,
+			"description": "远程攻击的哥布林"
+		},
+		"ogre": {
+			"id": "ogre",
+			"name": "食人魔",
+			"role": "近战坦克",
+			"hp": 600,
+			"ad": 60,
+			"ap": 0.0,
+			"arm": 30,
+			"mdf": 15,
+			"spd": 0.9,
+			"arg": 1,
+			"description": "高生命值的近战坦克怪物"
+		},
+		"shadow_mage": {
+			"id": "shadow_mage",
+			"name": "暗影法师",
+			"role": "远程魔法",
+			"hp": 280,
+			"ad": 10,
+			"ap": 0.4,
+			"arm": 10,
+			"mdf": 25,
+			"spd": 0.8,
+			"arg": 5,
+			"description": "远程魔法攻击的敌方法师"
+		},
+		"boss_redmane": {
+			"id": "boss_redmane",
+			"name": "赤鬃Boss",
+			"role": "近战坦克",
+			"hp": 1500,
+			"ad": 90,
+			"ap": 0.2,
+			"arm": 50,
+			"mdf": 35,
+			"spd": 1.0,
+			"arg": 1,
+			"skill": "iron_charge",
+			"description": "最终Boss，拥有极高的生命值和攻防"
+		}
+	}
+}

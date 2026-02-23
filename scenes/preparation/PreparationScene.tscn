@@ -1,0 +1,121 @@
+[gd_scene load_steps=3 format=3 uid="uid://placeholder_prep"]
+
+[ext_resource type="Script" path="res://scenes/preparation/PreparationScene.gd" id="1"]
+[ext_resource type="Script" path="res://ui/UnitInfoPanel.gd" id="2"]
+
+[node name="PreparationScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.18, 0.15, 0.12, 1)
+
+[node name="VLayout" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TopBarPanel" type="PanelContainer" parent="VLayout"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 44)
+
+[node name="TopBar" type="HBoxContainer" parent="VLayout/TopBarPanel"]
+layout_mode = 2
+
+[node name="GoldLabel" type="Label" parent="VLayout/TopBarPanel/TopBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Gold: 15"
+
+[node name="WaveLabel" type="Label" parent="VLayout/TopBarPanel/TopBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+horizontal_alignment = 2
+text = "Wave 1 / 5"
+
+[node name="HintLabel" type="Label" parent="VLayout"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 0)
+horizontal_alignment = 1
+text = ""
+
+[node name="MainArea" type="HBoxContainer" parent="VLayout"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ShopPanel" type="PanelContainer" parent="VLayout/MainArea"]
+layout_mode = 2
+custom_minimum_size = Vector2(260, 0)
+
+[node name="ShopArea" type="VBoxContainer" parent="VLayout/MainArea/ShopPanel"]
+layout_mode = 2
+
+[node name="ShopTitle" type="Label" parent="VLayout/MainArea/ShopPanel/ShopArea"]
+layout_mode = 2
+text = "商店"
+horizontal_alignment = 1
+
+[node name="ShopList" type="VBoxContainer" parent="VLayout/MainArea/ShopPanel/ShopArea"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="BoardArea" type="Control" parent="VLayout/MainArea"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 3.0
+
+[node name="InfoPanelContainer" type="PanelContainer" parent="VLayout/MainArea"]
+layout_mode = 2
+custom_minimum_size = Vector2(260, 0)
+
+[node name="InfoPanel" type="VBoxContainer" parent="VLayout/MainArea/InfoPanelContainer"]
+layout_mode = 2
+
+[node name="InfoTitle" type="Label" parent="VLayout/MainArea/InfoPanelContainer/InfoPanel"]
+layout_mode = 2
+text = "-- Info --"
+horizontal_alignment = 1
+
+[node name="UnitInfoPanel" type="VBoxContainer" parent="VLayout/MainArea/InfoPanelContainer/InfoPanel"]
+layout_mode = 2
+size_flags_vertical = 3
+script = ExtResource("2")
+
+[node name="BottomBarPanel" type="PanelContainer" parent="VLayout"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 56)
+
+[node name="BottomBar" type="HBoxContainer" parent="VLayout/BottomBarPanel"]
+layout_mode = 2
+
+[node name="TownArea" type="HBoxContainer" parent="VLayout/BottomBarPanel/BottomBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+alignment = 1
+
+[node name="HealthLabel" type="Label" parent="VLayout/BottomBarPanel/BottomBar/TownArea"]
+layout_mode = 2
+text = "HP: 5"
+
+[node name="Spacer" type="Control" parent="VLayout/BottomBarPanel/BottomBar/TownArea"]
+layout_mode = 2
+custom_minimum_size = Vector2(40, 0)
+
+[node name="ReadyButton" type="Button" parent="VLayout/BottomBarPanel/BottomBar/TownArea"]
+layout_mode = 2
+custom_minimum_size = Vector2(160, 40)
+text = "Ready to Fight!"
