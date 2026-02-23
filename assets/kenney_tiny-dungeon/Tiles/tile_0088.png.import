@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://m5b2xqyaojfc"
-path="res://.godot/imported/tile_0099.png-2acb70b4508430ce233047c5989b2bf5.ctex"
+uid="uid://chtpfhanku6hv"
+path="res://.godot/imported/tile_0088.png-5601afc741a11d34d5c7c1486335526f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://素材/kenney_tiny-dungeon/Tiles/tile_0099.png"
-dest_files=["res://.godot/imported/tile_0099.png-2acb70b4508430ce233047c5989b2bf5.ctex"]
+source_file="res://assets/kenney_tiny-dungeon/Tiles/tile_0088.png"
+dest_files=["res://.godot/imported/tile_0088.png-5601afc741a11d34d5c7c1486335526f.ctex"]
 
 [params]
 

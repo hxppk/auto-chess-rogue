@@ -21,21 +21,21 @@ const COLOR_DROP_VALID: Color = Color(0.3, 0.9, 0.3, 0.4)
 
 # 角色精灵映射 (role -> tile path) - 玩家单位
 const ROLE_SPRITE_MAP: Dictionary = {
-	"近战坦克": "res://素材/kenney_tiny-dungeon/Tiles/tile_0122.png",
-	"近战输出": "res://素材/kenney_tiny-dungeon/Tiles/tile_0087.png",
-	"远程物理": "res://素材/kenney_tiny-dungeon/Tiles/tile_0108.png",
-	"远程魔法": "res://素材/kenney_tiny-dungeon/Tiles/tile_0084.png",
-	"远程治疗": "res://素材/kenney_tiny-dungeon/Tiles/tile_0121.png",
+	"近战坦克": "res://assets/kenney_tiny-dungeon/Tiles/tile_0122.png",
+	"近战输出": "res://assets/kenney_tiny-dungeon/Tiles/tile_0087.png",
+	"远程物理": "res://assets/kenney_tiny-dungeon/Tiles/tile_0108.png",
+	"远程魔法": "res://assets/kenney_tiny-dungeon/Tiles/tile_0084.png",
+	"远程治疗": "res://assets/kenney_tiny-dungeon/Tiles/tile_0121.png",
 }
 
 # 敌方精灵映射 (enemy id -> tile path)
 const ENEMY_SPRITE_MAP: Dictionary = {
-	"wolf": "res://素材/kenney_tiny-dungeon/Tiles/tile_0110.png",
-	"goblin": "res://素材/kenney_tiny-dungeon/Tiles/tile_0088.png",
-	"goblin_archer": "res://素材/kenney_tiny-dungeon/Tiles/tile_0114.png",
-	"ogre": "res://素材/kenney_tiny-dungeon/Tiles/tile_0112.png",
-	"shadow_mage": "res://素材/kenney_tiny-dungeon/Tiles/tile_0099.png",
-	"boss_redmane": "res://素材/kenney_tiny-dungeon/Tiles/tile_0120.png",
+	"wolf": "res://assets/kenney_tiny-dungeon/Tiles/tile_0110.png",
+	"goblin": "res://assets/kenney_tiny-dungeon/Tiles/tile_0088.png",
+	"goblin_archer": "res://assets/kenney_tiny-dungeon/Tiles/tile_0114.png",
+	"ogre": "res://assets/kenney_tiny-dungeon/Tiles/tile_0112.png",
+	"shadow_mage": "res://assets/kenney_tiny-dungeon/Tiles/tile_0099.png",
+	"boss_redmane": "res://assets/kenney_tiny-dungeon/Tiles/tile_0120.png",
 }
 
 # 格子数据：grid[col][row] = unit_data or null

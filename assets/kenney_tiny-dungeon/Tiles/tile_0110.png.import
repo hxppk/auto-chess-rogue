@@ -10,7 +10,7 @@ metadata={
 
 [deps]
 
-source_file="res://素材/kenney_tiny-dungeon/Tiles/tile_0110.png"
+source_file="res://assets/kenney_tiny-dungeon/Tiles/tile_0110.png"
 dest_files=["res://.godot/imported/tile_0110.png-2bb1e8d5778f36b066107e9be60e7737.ctex"]
 
 [params]
